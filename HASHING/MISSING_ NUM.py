@@ -3,7 +3,8 @@
 2. Loop from 0 to n inclusive.
 
 3. If a number is not in the set:
-       return it.'''
+       return it.  problem number 268 
+       '''
 def missing_num(nums):
     n = len(nums)
     seen = set(nums)
